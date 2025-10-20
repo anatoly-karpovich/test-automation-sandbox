@@ -10,12 +10,14 @@ import HourglassBottomIcon from "@mui/icons-material/HourglassBottom";
 import TableChartIcon from "@mui/icons-material/TableChart";
 import WebIcon from "@mui/icons-material/Web";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import LockIcon from "@mui/icons-material/Lock";
 
 const cards = [
   { label: "Form Authentication", path: "/form-auth", icon: <LoginIcon sx={{ fontSize: 48 }} color="primary" /> },
   { label: "Checkboxes", path: "/checkboxes", icon: <CheckBoxIcon sx={{ fontSize: 48 }} color="success" /> },
   { label: "Dropdown", path: "/dropdown", icon: <ArrowDropDownCircleIcon sx={{ fontSize: 48 }} color="secondary" /> },
   { label: "Dynamic Content", path: "/dynamic-content", icon: <DynamicFeedIcon sx={{ fontSize: 48 }} color="info" /> },
+  { label: "Secret Area", path: "/secret", icon: <LockIcon sx={{ fontSize: 48 }} color="error" /> },
   {
     label: "Dynamic Controls",
     path: "/dynamic-controls",
