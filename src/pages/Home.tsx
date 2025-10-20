@@ -2,35 +2,37 @@ import { Grid } from "@mui/material";
 import { Card, CardActionArea, CardContent, Typography, Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import LoginIcon from "@mui/icons-material/Login";
-// import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
-// import DynamicFeedIcon from "@mui/icons-material/DynamicFeed";
-// import ToggleOnIcon from "@mui/icons-material/ToggleOn";
 import HourglassBottomIcon from "@mui/icons-material/HourglassBottom";
 import TableChartIcon from "@mui/icons-material/TableChart";
-// import WebIcon from "@mui/icons-material/Web";
-// import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import LockIcon from "@mui/icons-material/Lock";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import WebIcon from "@mui/icons-material/Web";
+// import CheckBoxIcon from "@mui/icons-material/CheckBox";
+// import DynamicFeedIcon from "@mui/icons-material/DynamicFeed";
+// import ToggleOnIcon from "@mui/icons-material/ToggleOn";
+// import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const cards = [
   { label: "Form Authentication", path: "/form-auth", icon: <LoginIcon sx={{ fontSize: 48 }} color="primary" /> },
-  // { label: "Checkboxes", path: "/checkboxes", icon: <CheckBoxIcon sx={{ fontSize: 48 }} color="success" /> },
   { label: "Dropdown", path: "/dropdown", icon: <ArrowDropDownCircleIcon sx={{ fontSize: 48 }} color="secondary" /> },
-  // { label: "Dynamic Content", path: "/dynamic-content", icon: <DynamicFeedIcon sx={{ fontSize: 48 }} color="info" /> },
   { label: "Secret Area", path: "/secret-area", icon: <LockIcon sx={{ fontSize: 48 }} color="error" /> },
-  // {
-  //   label: "Dynamic Controls",
-  //   path: "/dynamic-controls",
-  //   icon: <ToggleOnIcon sx={{ fontSize: 48 }} color="warning" />,
-  // },
+
   {
     label: "Dynamic Loading",
     path: "/dynamic-loading",
     icon: <HourglassBottomIcon sx={{ fontSize: 48 }} color="error" />,
   },
   { label: "Sortable Table", path: "/sortable-table", icon: <TableChartIcon sx={{ fontSize: 48 }} color="primary" /> },
-  // { label: "Frames", path: "/frames", icon: <WebIcon sx={{ fontSize: 48 }} color="secondary" /> },
-  // { label: "File Download", path: "/file-download", icon: <FileDownloadIcon sx={{ fontSize: 48 }} color="success" /> },
+  { label: "File Download", path: "/file-download", icon: <FileDownloadIcon sx={{ fontSize: 48 }} color="success" /> },
+  { label: "iFrame", path: "/iframe", icon: <WebIcon sx={{ fontSize: 48 }} color="secondary" /> },
+  // { label: "Checkboxes", path: "/checkboxes", icon: <CheckBoxIcon sx={{ fontSize: 48 }} color="success" /> },
+  // { label: "Dynamic Content", path: "/dynamic-content", icon: <DynamicFeedIcon sx={{ fontSize: 48 }} color="info" /> },
+  // {
+  //   label: "Dynamic Controls",
+  //   path: "/dynamic-controls",
+  //   icon: <ToggleOnIcon sx={{ fontSize: 48 }} color="warning" />,
+  // },
 ];
 
 export default function Home() {
