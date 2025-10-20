@@ -3,8 +3,8 @@ import Home from "./pages/Home";
 import FormAuth from "./pages/formAuth/FormAuth";
 import Success from "./pages/formAuth/Success";
 import SortableTable from "./pages/SortableTable";
+import Dropdown from "./pages/dropdown";
 // import Checkboxes from "./pages/Checkboxes";
-// import Dropdown from "./pages/Dropdown";
 // import DynamicContent from "./pages/DynamicContent";
 // import DynamicControls from "./pages/DynamicControls";
 // import DynamicLoading from "./pages/DynamicLoading";
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/success" element={<Success />} />
           <Route path="/sortable-table" element={<SortableTable />} />
           {/* <Route path="/checkboxes" element={<Checkboxes />} /> */}
-          {/* <Route path="/dropdown" element={<Dropdown />} /> */}
+          <Route path="/dropdown" element={<Dropdown />} />
           {/* <Route path="/dynamic-content" element={<DynamicContent />} /> */}
           {/* <Route path="/dynamic-controls" element={<DynamicControls />} /> */}
           {/* <Route path="/dynamic-loading" element={<DynamicLoading />} /> */}
