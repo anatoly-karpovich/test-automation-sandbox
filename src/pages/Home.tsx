@@ -17,7 +17,7 @@ const cards = [
   { label: "Checkboxes", path: "/checkboxes", icon: <CheckBoxIcon sx={{ fontSize: 48 }} color="success" /> },
   { label: "Dropdown", path: "/dropdown", icon: <ArrowDropDownCircleIcon sx={{ fontSize: 48 }} color="secondary" /> },
   { label: "Dynamic Content", path: "/dynamic-content", icon: <DynamicFeedIcon sx={{ fontSize: 48 }} color="info" /> },
-  { label: "Secret Area", path: "/secret", icon: <LockIcon sx={{ fontSize: 48 }} color="error" /> },
+  { label: "Secret Area", path: "/secret-area", icon: <LockIcon sx={{ fontSize: 48 }} color="error" /> },
   {
     label: "Dynamic Controls",
     path: "/dynamic-controls",
