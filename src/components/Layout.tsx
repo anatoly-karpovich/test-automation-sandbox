@@ -15,7 +15,7 @@ export default function Layout({ children }: PropsWithChildren) {
         alignItems: "center",
       }}
     >
-      <AppBar position="absolute" color="primary" elevation={2}>
+      <AppBar position="fixed" color="primary" elevation={2}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 500, letterSpacing: 0.5 }}>
             Automation Sandbox
