@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import FormAuth from "./pages/FormAuth";
-import Success from "./pages/Success";
+import FormAuth from "./pages/formAuth/FormAuth";
+import Success from "./pages/formAuth/Success";
 import SortableTable from "./pages/SortableTable";
 // import Checkboxes from "./pages/Checkboxes";
 // import Dropdown from "./pages/Dropdown";

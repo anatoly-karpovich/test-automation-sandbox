@@ -104,10 +104,10 @@ export default function SortableTable() {
   return (
     <Box sx={{ p: 4 }}>
       <Typography variant="h4" gutterBottom>
-        Employees
+        Sortable Table
       </Typography>
 
-      <TableContainer component={Paper} elevation={3}>
+      <TableContainer component={Paper} elevation={3} sx={{ mt: 5 }}>
         <Table>
           <TableHead>
             <TableRow>
@@ -119,7 +119,7 @@ export default function SortableTable() {
                 { id: "age", label: "Age" },
                 { id: "occupation", label: "Occupation" },
               ].map((column) => (
-                <TableCell key={column.id} align="center">
+                <TableCell key={column.id} align="center" id={column.id}>
                   <TableSortLabel
                     active={orderBy === column.id}
                     direction={orderBy === column.id ? order : "asc"}

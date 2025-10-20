@@ -28,6 +28,23 @@ export default function FormAuth() {
         minHeight: "70vh",
       }}
     >
+      <Typography variant="h4" gutterBottom>
+        Form Authentication
+      </Typography>
+      <Typography variant="h6" gutterBottom>
+        For sucessfull login use following credentials:
+      </Typography>
+      <Typography variant="h6" gutterBottom>
+        username:{" "}
+        <Typography component="span" fontWeight="bold">
+          admin
+        </Typography>{" "}
+        and password:{" "}
+        <Typography component="span" fontWeight="bold">
+          qwerty
+        </Typography>{" "}
+      </Typography>
+
       <Paper
         elevation={3}
         sx={{

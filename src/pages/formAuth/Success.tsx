@@ -26,7 +26,7 @@ export default function Success() {
           ✅ Login Successful!
         </Typography>
         <Typography variant="body1" mb={3}>
-          You have successfully logged in to Automation Lab.
+          You have successfully logged in to Automation Sandbox.
         </Typography>
         <Button variant="contained" onClick={() => navigate("/form-auth")}>
           Back to Login
