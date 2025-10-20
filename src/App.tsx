@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import FormAuth from "./pages/formAuth/FormAuth";
 import Success from "./pages/formAuth/Success";
 import SortableTable from "./pages/SortableTable";
-import Dropdown from "./pages/dropdown";
+import Dropdown from "./pages/Dropdown";
 // import Checkboxes from "./pages/Checkboxes";
 // import DynamicContent from "./pages/DynamicContent";
 // import DynamicControls from "./pages/DynamicControls";
